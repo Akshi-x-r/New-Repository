@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info {
+    text-align: center;
+  }
+  
+  #city-name {
+    font-size: 2rem;
+  }
+  
+  #current-temp,
+  #current-wind,
+  #current-precip,
+  #current-description {
+    font-size: 1.2rem;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forecast {
+    margin-top: 30px;
+  }
+  
+  .forecast h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #hourly-forecast, #weekly-forecast {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-card {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forecast-card img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .forecast-card p {
+    margin: 5px 0;
+  }
+  
