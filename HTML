@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="weather-info">
+      <h1 id="city-name">Weather</h1>
+      <p id="current-temp">Temp: --°C</p>
+      <p id="current-wind">Wind: -- km/h</p>
+      <p id="current-precip">Precipitation: --%</p>
+      <p id="current-description">Condition: --</p>
+      <button id="location-btn">Get My Location</button>
+      <input type="text" id="city-input" placeholder="Enter city">
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div class="forecast">
+      <h2>Hourly Forecast</h2>
+      <div id="hourly-forecast">
+        <!-- Hourly forecast will be injected here -->
+      </div>
+      <h2>7-Day Forecast</h2>
+      <div id="weekly-forecast">
+        <!-- 7-day forecast will be injected here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
